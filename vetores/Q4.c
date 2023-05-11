@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-// Função que verifica se um número é primo
+
 int eh_primo(int num) {
     int i;
 
@@ -21,14 +21,14 @@ int main() {
     int vetor[10];
     int i;
 
-    // Preenchendo o vetor com valores fornecidos pelo usuário
+    
     printf("Digite 10 números:\n");
     for (i = 0; i < 10; i++) {
         printf("Número %d: ", i + 1);
         scanf("%d", &vetor[i]);
     }
 
-    // Encontrando os números primos no vetor e exibindo-os
+    
     printf("Números primos no vetor: ");
     for (i = 0; i < 10; i++) {
         if (eh_primo(vetor[i])) {
