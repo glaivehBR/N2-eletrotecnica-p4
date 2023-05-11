@@ -1,2 +1,2 @@
-# lista 2 eletrotecnica p4
+É nois
  
